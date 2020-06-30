@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Success</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="js/xzoom/xzoom.css">
+  <link rel="stylesheet" href="js/combined/css/gijgo.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar my-navbar py-4 navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <div class="navbar-nav ml-auto mr-auto mr-lg-0 mr-md-auto">
+        <div class="navbar-brand">
+          <a href="#">
+            <h4>berang<span>.kat</span></h4>
+          </a>
+        </div>
+      </div>
+      <ul class="navbar-nav mr-auto d-none d-lg-block">
+        <li>
+          <span class="text-muted">
+            |&nbsp; Beyond the explore of the world
+          </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section-success d-flex align-items-center">
+      <div class="col text-center">
+        <img src="img/ic_succes.png" alt="">
+        <h1>Yay! Success</h1>
+        <p>
+          We've sent your email for trip instructions
+          <br>
+          please read it as well
+        </p>
+        <a href="index.html" class="btn btn-primary px-5 py-3 mt-3">Home Page</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/xzoom/xzoom.min.js"></script>
+  <script src="js/combined/js/gijgo.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.xzoom, .xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        title: false,
+        tint: '#333',
+        Xoffset: 15
+      });
+
+      $('.datepicker').datepicker({
+        uiLibrary: 'bootstrap4',
+        icons: {
+          rightIcon: `<img src="img/ic_date.png" width="20" />`
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

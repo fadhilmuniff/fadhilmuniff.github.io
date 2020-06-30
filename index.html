@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar my-navbar py-4 navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="#">
+          <h4>berang<span>.kat</span></h4>
+        </a>
+      </div>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto align-self-center">
+          <li class="nav-item active align-self-center">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="details.html">Travel Packages</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <a class="btn px-4 py-2 btn-primary ml-2" href="#" role="button">Sign In</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg align-self-center">
+          <h1 class="mb-4 hero-1">
+            Everything you need To build remarkable
+            <!-- <br> -->
+            <!-- powerful Travel agency website. -->
+          </h1>
+          <hr class="garis" />
+          <p class="mb-4 hero-2">
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit.
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Get Started</a>
+        </div>
+        <div class="col-lg d-none d-sm-block">
+          <img width="600" src="img/hero-icon.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <!-- STATISTIK -->
+      <section class="section-stats row justify-content-around justify-content-md-around" id="stats">
+        <div class="col-md-2 stats-detail text-center">
+          <!-- <img src="img/t1.jpg" alt="" /> -->
+          <h2>20K</h2>
+          <p>Members</p>
+        </div>
+        <div class="col-md-2 stats-detail text-center">
+          <h2>12</h2>
+          <p>Countries</p>
+        </div>
+        <div class="col-md-2 stats-detail text-center">
+          <h2>3K</h2>
+          <p>Hotel</p>
+        </div>
+        <div class="col-md-2 stats-detail text-center">
+          <h2>99K</h2>
+          <p>Partners</p>
+        </div>
+      </section>
+      <!-- TOP DESTINATION -->
+      <section class="section-top">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-top-heading">
+              <h2>Top Destination</h2>
+              <p>
+                Somthing that you never try
+                <br />
+                before the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-top-content">
+        <div class="container">
+          <div class="section-top-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column" style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.1),
+                        rgba(0, 0, 0, 0.1)
+                      ),
+                      url('img/t1.jpg');
+                  ">
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">DERATAN,BALI</div>
+                <div class="travel-btn mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column" style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.6),
+                        rgba(0, 0, 0, 0.2)
+                      ),
+                      url('img/t2.jpg');
+                  ">
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">DERATAN,BALI</div>
+                <div class="travel-btn mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column" style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.4),
+                        rgba(0, 0, 0, 0.4)
+                      ),
+                      url('img/t3.jpg');
+                  ">
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">DERATAN,BALI</div>
+                <div class="travel-btn mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column" style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.4),
+                        rgba(0, 0, 0, 0.4)
+                      ),
+                      url('img/t4.jpg');
+                  ">
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">DERATAN,BALI</div>
+                <div class="travel-btn mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NETWORKS -->
+      <section class="section-networks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="mb-3">Our Networks</h2>
+              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-2 justify-content-center">
+              <a class="tes" href="https://getlogovector.com/gojek-logo-vector-svg/" target="_blank"><img
+                  class="our-networks"
+                  src="https://getlogovector.com/wp-content/uploads/2019/08/gojek-logo-vector.png" /></a>
+            </div>
+            <div class="col-md-2 justify-content-center">
+              <a href="https://getlogovector.com/unilock-stonemark-logo-vector-svg/" target="_blank"><img
+                  class="our-networks"
+                  src="https://getlogovector.com/wp-content/uploads/2019/05/unilock-stonemark-logo-vector.png" /></a>
+            </div>
+            <div class="col-md-2 justify-content-center">
+              <a href="https://getlogovector.com/kenshoo-ltd-logo-vector-svg/" target="_blank"><img class="our-networks"
+                  src="https://getlogovector.com/wp-content/uploads/2020/05/kenshoo-ltd-logo-vector.png" /></a>
+            </div>
+            <div class="col-md-2 justify-content-center">
+              <a href="https://getlogovector.com/resitrix-logo-vector-svg/" target="_blank"><img class="our-networks"
+                  src="https://getlogovector.com/wp-content/uploads/2020/05/resitrix-logo-vector.png" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIAL -->
+      <section class="section-top">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-top-heading">
+              <h2 class="">They Are Loving</h2>
+              <p>
+                Moment were giving them
+                <br />
+                the best experience
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonial-content" style="background-color: #e8daf034;">
+        <div class="container">
+          <div class="section-testimonial-card row justify-content-center">
+            <div class="col-sm6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="img/testi_1.png" alt="" class="mb-4 rounded-circle" />
+                  <h3 class="mb-4">Fadhil Munif</h3>
+                  <p class="testimonial-p">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    Lorem, ipsum."
+                  </p>
+                  <hr />
+                  <p class="trip-to mt-2">Travel to Anyer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="img/testi_4.png" alt="" class="mb-4 rounded-circle" />
+                  <h3 class="mb-4">Munif</h3>
+                  <p class="testimonial-p">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    Lorem, ipsum."
+                  </p>
+                  <hr />
+                  <p class="trip-to">Travel to Anyer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="img/testi_3.png" alt="" class="mb-4 rounded-circle" />
+                  <h3 class="mb-4">Dermawan</h3>
+                  <p class="testimonial-p">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    Lorem, ipsum."
+                  </p>
+                  <hr />
+                  <p class="trip-to mt-2">Travel to Anyer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONNECT -->
+      <section class="section-top">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-top-heading">
+              <h2>Connect with berang.kat</h2>
+              <p>
+                Somthing that you never try
+                <br />
+                before the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact">
+        <div class="container">
+          <form>
+            <div class="row mt-4">
+              <div class="col-lg-6 col-sm-6">
+                <input type="text" class="form-control form-contact px-4" placeholder="Name" />
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <input type="text" class="form-control form-contact px-4" placeholder="Phone" />
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12">
+                <textarea class="form-control form-contact form-message px-4 py-3" id="validationTextarea"
+                  placeholder="Message" required></textarea>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12 text-center">
+                <a class="btn btn-primary px-5" href="#" role="button">Contact</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer class="section-footer mt-5 mb-4 border-top">
+    <div class="container pt-5 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <h4>Features</h4>
+              <ul class="list-unstyled">
+                <!-- li*4>a -->
+                <li><a href="">Review</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Social Media</a></li>
+                <li><a href="">Affailate </a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h4>Account</h4>
+              <ul class="list-unstyled">
+                <!-- li*4>a -->
+                <li><a href="">Refund</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Rewards</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h4>Company</h4>
+              <ul class="list-unstyled">
+                <!-- li*4>a -->
+                <li><a href="">Career</a></li>
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Media</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h4>Contact Us</h4>
+              <ul class="list-unstyled">
+                <!-- li*4>a -->
+                <li><a href="">Bandung</a></li>
+                <li><a href="">Indonesia</a></li>
+                <li><a href="">0877-7123-8880</a></li>
+                <li><a href="">berangkat@gmail.com </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row border-top justify-content-center align-items-center pt-4 text-center">
+        <div class="col-auto text-gray-500 font-weight-light" style="color: #8c3eb3;">
+          2020 Copyright berang.kat • All right reserved • Made in Bandung
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

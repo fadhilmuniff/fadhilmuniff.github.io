@@ -1,0 +1,109 @@
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0505;
+}
+
+.navbar-nav .nav-link:hover {
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 400; */
+    color: #947ff3;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+.logo {
+    width: 170px;
+}
+
+
+.btn-primary {
+    background-color: #8c3eb3;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ac55d8;
+    border: none;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #8c3eb3;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8c3eb3;
+}
+
+.btn-secondary:hover {
+    background-color: #8c3eb3;
+    border: 1px solid #8c3eb3;
+}
+
+
+.hero {
+    margin-bottom: 200px;
+}
+
+.hero .hero-1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #292828;
+}
+
+.hero .hero-2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #292828;
+}
+
+
+.contoh {
+    margin-bottom: 250px;
+}
+
+.garis {
+    width: 10%;
+    border: 5px solid #8c3eb3;
+    margin-right: 1000px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .btn-primary {
+        margin-top: 10px;
+        /* margin-left: 0px; */
+    }
+
+
+    .btn-secondary {
+        margin-left: 0px;
+    }
+
+    .card1 {
+        margin: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 967px) {
+
+    .btn-primary {
+        margin-top: 10px;
+        /* margin-left: 0px; */
+    }
+
+
+    .btn-secondary {
+        margin-left: 0px;
+    }
+
+    .card1 {
+        margin-right: 20px;
+    }
+}
